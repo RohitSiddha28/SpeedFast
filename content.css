@@ -1,0 +1,18 @@
+/* Make custom speed buttons match YouTube’s control buttons visually */
+#speed25btn, #speed3btn {
+    font-size: 14px !important;
+    color: #fff !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 8px !important;
+    height: 36px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    margin-right: 6px !important;
+}
+
+#speed25btn:hover, #speed3btn:hover {
+    color: #ccc !important;
+}
